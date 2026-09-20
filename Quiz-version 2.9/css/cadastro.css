@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8B70A6;
+}
+
+.titulo {
+  font-size: 3rem;
+  font-family: "Changa One", cursive;
+  padding: 10px 20px;
+}
+
+section,
+.titulo {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+section {
+  height: 35%;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+input {
+  font-style: italic;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button {
+  background-color: #51068f;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.img_cadastro {
+  width: auto;
+  height: 100%;
+}
+
+.killer_queen {
+  width: 10%;
+  margin-right: 5rem;
+  margin-top: auto;
+}
