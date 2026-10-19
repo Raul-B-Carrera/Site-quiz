@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  height: 40%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: #161616;
+  opacity: 1;
+}
+
+header img {
+  width: auto;
+  height: 100%;
+}
+
+main {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+aside {
+  height: 100vh;
+  width: 30%;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+aside img {
+  width: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  height: 60%;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+section div {
+  border: 0.2rem solid #d9d9d9;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  box-shadow: #161616 0.1em 0.1em 0.2em;
+  height: 30%;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.quest1 img {
+  width: auto;
+  height: 100%;
+}
+
+.quest2 {
+  background-color: #1a63ffd3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.iggy {
+  height: auto;
+}
+
+.quest4 {
+  padding: 1rem;
+}
+
+.quest4 img {
+  border-radius: 1rem;
+}
+
+.quest6 {
+  padding: 1rem;
+}
+
+.quest6 img {
+  border-radius: 1rem;
+}
+
+.quest7 {
+  padding: 2rem;
+}
+
+.quest7 img {
+  height: 100%;
+  border-radius: 2rem;
+}
+
+.quest10 {
+  padding: 0;
+}
+
+.quest10 img {
+  width: 100%;
+}

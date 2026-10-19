@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8b70a6;
+}
+
+.caixaUpdate {
+  background-color: #56508F;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #352f72;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.corpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.confirmar {
+  width: 50%;
+  background-color: #8b70a6;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+.button_cadastro {
+      background-color: #762666;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 1rem;
+}

@@ -1,0 +1,238 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section {
+  height: 80%;
+  width: 50%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo-resultado {
+  font-family: "Changa One", cursive;
+  font-size: 3rem;
+}
+
+.descricao-resultado {
+  font-size: large;
+  font-weight: light;
+  background-color: #cfcfcf;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+aside {
+  width: 40%;
+  height: 100%;
+  background-color: #b3b2b4;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.img-resultado {
+  width: auto;
+  height: 100%;
+}
+
+article {
+  display: flex;
+  gap: 1rem;
+  background-color: #cfcfcf;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 25%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dados-usuario {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dados-usuario th {
+  text-align: left;
+}
+
+.placar-quiz {
+  height: auto;
+  width: auto;
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jogarNovamente {
+  width: 80%;
+  height: 100%;
+}
+
+.bar_chart{
+  width: 50%;
+  height: 100%;
+}
+
+/* 
+  estilos de cada jojo
+*/
+
+/* PARTE 1 */
+[data-tema="jonathan"] .titulo-resultado::after {
+  content: "Jonathan Joestar Parte 1";
+}
+
+[data-tema="jonathan"] .descricao-resultado::after {
+  content: "Você é uma pessoa que luta por justiça e tem um grande senso de moralidade. Assim como Jonathan, você é corajoso, leal e sempre disposto a ajudar os outros. Você valoriza a amizade e a família acima de tudo, e está disposto a enfrentar qualquer desafio para proteger aqueles que ama.";
+}
+
+[data-tema="jonathan"] .img-resultado {
+  content: url("../img/jojo1-img.png");
+}
+
+[data-tema="jonathan"] aside {
+  background-color: #1e12d0;
+}
+
+/* PARTE 2 */
+[data-tema="joseph"] .titulo-resultado::after {
+  content: "Joseph Joestar Parte 2";
+}
+
+[data-tema="joseph"] .descricao-resultado::after {
+  content: "Você é uma pessoa inteligente, astuta e cheia de recursos. Assim como Joseph, você é conhecido por sua habilidade de pensar rapidamente e encontrar soluções criativas para os problemas. Você tem um senso de humor afiado e gosta de brincar, mas também é leal e protetor com aqueles que ama.";
+}
+
+[data-tema="joseph"] .img-resultado {
+  content: url("../img/jojo2-img.png");
+}
+
+[data-tema="joseph"] aside {
+  background-color: #70bd14;
+}
+
+/* PARTE 3 */
+[data-tema="jotaro"] .titulo-resultado::after {
+  content: "Jotaro Kujo Parte 3";
+}
+
+[data-tema="jotaro"] .descricao-resultado::after {
+  content: "Você é uma pessoa forte, determinada e um pouco reservada. Assim como Jotaro, você é conhecido por sua coragem e determinação em enfrentar desafios difíceis. Você tem um senso de justiça muito forte e está disposto a lutar pelo que acredita ser certo, mesmo que isso signifique enfrentar grandes perigos.";
+}
+
+[data-tema="jotaro"] .img-resultado {
+  content: url("../img/jojo3-img.png");
+}
+
+[data-tema="jotaro"] aside {
+  background-color: #9f17a7;
+}
+
+/* PARTE 4 */
+[data-tema="josuke4"] .titulo-resultado::after {
+  content: "Josuke Higashikata Parte 4";
+}
+
+[data-tema="josuke4"] .descricao-resultado::after {
+  content: "Você é uma pessoa amigável, leal e um pouco excêntrica. Assim como Josuke, você é conhecido por sua personalidade calorosa e seu desejo de ajudar os outros. Você valoriza a amizade e a família, e está sempre disposto a proteger aqueles que ama, mesmo que isso signifique enfrentar grandes desafios.";
+}
+
+[data-tema="josuke4"] .img-resultado {
+  content: url("../img/jojo4-img.png");
+}
+
+[data-tema="josuke4"] aside {
+  background-color: #67316a;
+}
+
+/* PARTE 5 */
+[data-tema="giorno"] .titulo-resultado::after {
+  content: "Giorno Giovanna Parte 5";
+}
+
+[data-tema="giorno"] .descricao-resultado::after {
+  content: "Você é uma pessoa ambiciosa, determinada e com um forte senso de justiça. Assim como Giorno, você tem um desejo ardente de fazer a diferença no mundo e está disposto a lutar por seus ideais, mesmo que isso signifique enfrentar grandes desafios. Você é inteligente, astuto e tem uma habilidade natural para liderar os outros.";
+}
+
+[data-tema="giorno"] .img-resultado {
+  content: url("../img/jojo5-img.png");
+}
+
+[data-tema="giorno"] aside {
+  background-color: #f4e9b3;
+}
+
+/* PARTE 6 */
+[data-tema="jolyne"] .titulo-resultado::after {
+  content: "Jolyne Cujoh Parte 6";
+}
+
+[data-tema="jolyne"] .descricao-resultado::after {
+  content: "Você é uma pessoa forte, determinada e resiliente. Assim como Jolyne, você é conhecida por sua coragem e determinação em enfrentar desafios difíceis. Você tem um senso de justiça muito forte e está disposto a lutar pelo que acredita ser certo, mesmo que isso signifique enfrentar grandes perigos.";
+}
+
+[data-tema="jolyne"] .img-resultado {
+  content: url("../img/jojo6-img.png");
+}
+
+[data-tema="jolyne"] aside {
+  background-color: #0e326f;
+}
+
+/* PARTE 7 */
+[data-tema="johnny"] .titulo-resultado::after {
+  content: "Johnny Joestar Parte 7";
+}
+
+[data-tema="johnny"] .descricao-resultado::after {
+  content: "Você é uma pessoa determinada, resiliente e com um forte senso de justiça. Assim como Johnny, você tem uma vontade inabalável de superar desafios e alcançar seus objetivos, mesmo quando enfrenta adversidades significativas. Você é inteligente, astuto e tem uma habilidade natural para liderar os outros.";
+}
+
+[data-tema="johnny"] .img-resultado {
+  content: url("../img/jojo7-img.png");
+}
+
+[data-tema="johnny"] aside {
+  background-color: #fface9;
+}
+
+/* PARTE 8 */
+[data-tema="josuke8"] .titulo-resultado::after {
+  content: "Josuke Higashikata Parte 8";
+}
+
+[data-tema="josuke8"] .descricao-resultado::after {
+  content: "Você é uma pessoa amigável, leal e um pouco excêntrica. Assim como Josuke, você é conhecido por sua personalidade calorosa e seu desejo de ajudar os outros. Você valoriza a amizade e a família, e está sempre disposto a proteger aqueles que ama, mesmo que isso signifique enfrentar grandes desafios.";
+}
+
+[data-tema="josuke8"] .img-resultado {
+  content: url("../img/jojo8-img.png");
+}
+
+[data-tema="josuke8"] aside {
+  background-color: #f4c767;
+}
